@@ -1,0 +1,65 @@
+<html>
+       <head>
+         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+         <link href="css/styles.css" rel="stylesheet" type="text/css">
+         <link rel="stylesheet" href="js/bootstrap.js">
+
+         <title<brikicho</title>
+       </head>
+       <body>
+        <div class="container">
+          <div class="header">
+
+
+          <h1>Ping Pong</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <h2>author</h2>
+
+            </div>
+            <div class="col-md-9">
+              <h2>Let's Play!</h2>
+              <h3>Rules</h3>
+          <p>Ping pong will count up to your Number with the following exeptions</p>
+          <ul>
+            <li>1. Numbers divisible by 3 become<strong> ping.</strong></li>
+            <li>2. Numbers divisible by 5 become <strong> Pong.</strong></li>
+            <li>3. Numbers divisible by 3 and 5 becomes <strong> PingPong.</strong></li>
+          </ul>
+
+          <form id="form" onsubmit="return false;">
+          <input  type="text" id="i">
+          <input    type="submit"    onclick="name()">
+
+          </form>
+
+          <p id="demo"></p>
+          <script>
+              var i;
+              for (i = 0; i < 10; i++) {
+                if (i % 15 == 0)
+                console.log("FizzBuzz");
+                else if (i % 3 == 0)
+                    console.log("Fizz");
+                else if (i % 5 == 0)
+                    document.getElementById("demo").innerHTML = Buzz + "<br>";
+                else
+
+                  document.getElementById("demo").innerHTML += i + "<br>";
+              }
+
+
+          </script>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+         <script src="js/jquery.js"></script>
+         <script src="js/scripts.js"></script>
+       </body>
+     </html>
