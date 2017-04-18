@@ -1,18 +1,28 @@
-.walrus-showing {
-       display: none;
-     }
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/orange.ttf);
+}
 
-.clickable {
-       cursor: pointer;
-       color: #0088cc;
-     }
-
-.clickable:hover {
-       text-decoration: underline;
-     }
-
-.header{
-  min-height: 100px;
-  color: #f16233;
+#sec1 {
+  margin-top: -21px;
+  margin-bottom: 20px;
+  padding: 20px;
   text-align: center;
+  background-image: url(../images/images.jpg);
+  background-size: cover;
+  color: gold;
+}
+
+.head1 {
+  font-family: myFont;
+  font-size: 200px;
+}
+
+.head2 {
+  font-size: 500%;
+}
+
+.boi {
+  font-family: myFont;
+  font-size: 30px;
 }
