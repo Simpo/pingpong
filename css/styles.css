@@ -4,17 +4,19 @@
 }
 
 #sec1 {
-  margin-top: -21px;
-  margin-bottom: 20px;
+  height: 540px;
+  width: 1280px;
+
   padding: 20px;
   text-align: center;
-  background-image: url(../images/images.jpg);
+  /*background-image: url(../images/images.jpg);*/
+  background-image: url(../images/ping.jpg);
   background-size: cover;
   color: gold;
 }
 
 .head1 {
-  font-family: myFont;
+  font-family: fantasy;
   font-size: 200px;
 }
 
